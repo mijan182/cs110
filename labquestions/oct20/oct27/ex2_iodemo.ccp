@@ -46,10 +46,11 @@ int main()
     inData >> val;  //read in the first value
     while (inData)   //while previous read succeeded ...
     {
-        
-    sum = sum + val;      // Add code: add the newly read value to the variable "sum"
-    count++;              // Add code: increment the counter "count"
-    inData >> val;        // Add code: read the next value from the file into the variable "val"
+        // Add code: add the newly read value to the variable "sum"
+
+        // Add code: increment the counter "count".
+
+        // Add code: read the next value from the file into the variable "val"
 
     }
 
