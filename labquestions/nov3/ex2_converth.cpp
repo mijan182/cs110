@@ -2,6 +2,13 @@
 // Celsius or a temperature in Celsius to Fahrenheit
 // depending on whether the user enters an F or a C.
 
+/*
+Name: Jana Marie Reyes
+Student ID: 200548478
+Date: 11/3/25
+File name: ex2_converth1.cpp
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -17,14 +24,14 @@ int main()
     cout << "C: Convert from Celsius to Fahrenheit" << endl;
 
     //ADD CODE: Begin do-while loop here
-    do {
+    do { 
         cout << "Type a C or an F, then press return." << endl;
         cin >> letter;
 
         //REPLACE CODE: use a while loop instead of an if/else to detect
         //              and correct wrong letters
-        while (letter != 'C' && letter != 'c' && letter != 'F' && letter != 'f') {
-            cout << "Wrong letter." << endl;
+        while (letter != 'C' && letter != 'c' && letter != 'F' && letter != 'f') { /*while the letter is not either C or c of f or F*/
+            cout << "Wrong letter." << endl;  
             cout << "Type a C or an F, then press return." << endl;
             cin >> letter;
         }
