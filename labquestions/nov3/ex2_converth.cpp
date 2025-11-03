@@ -17,7 +17,7 @@ int main()
     char letter;    // Place to store input letter
     int tempIn;     // Temperature to be converted
     int tempOut;    // Converted temperature
-    char repeat;    // Variable to store repeat choice
+    char repeat;    // ADDED: Variable to store repeat choice
 
     cout << "Input Menu" << endl << endl;
     cout << "F: Convert from Fahrenheit to Celsius" << endl;
