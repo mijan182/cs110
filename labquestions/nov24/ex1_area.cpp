@@ -1,3 +1,10 @@
+/*
+Name: Jana Marie Reyes
+Student ID: 200548478
+Date: 11/24/25
+File name: ex1_area.cpp
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -25,6 +32,10 @@ int main()
    // call function getValues(length, width) here
    // call function computeArea(length, width) here
    // call function printArea(area) here
+
+   getValues(length, width);
+   area = computeArea(length, width);
+   printArea(area);
 
    return 0;
 }
