@@ -8,20 +8,14 @@ File name: ex1_area.cpp
 #include <iostream>
 using namespace std;
 
-
 // Function prototypes:
-
-
 void getValues(double &, double &);
-
 double computeArea(double, double);
-
 void printArea(double);
-
 
 int main()
 {
-   float length, width, area;
+   double length, width, area;  // Changed from float to double
 
    cout << "This program computes the area of a rectangle." << endl;
    cout << "You will be prompted to enter both the length and width.";
@@ -34,12 +28,11 @@ int main()
    // call function printArea(area) here
 
    getValues(length, width);
-   area = computeArea(length, width);
+   area = computeArea(length, width);  // Store the returned value
    printArea(area);
 
    return 0;
 }
-
 
 /*
    Purpose:  To ask the user for the length and width of a rectangle and
@@ -50,14 +43,11 @@ int main()
 
 void getValues(double & l, double & w)
 {
-    cout<<" Please enter the length of your rectangle: ";
-    cin>>l;
-    cout<<"Please enter the width of your rectangle: ";
-    cin>>w;
-
-
+    cout << "Please enter the length of your rectangle: ";
+    cin >> l;
+    cout << "Please enter the width of your rectangle: ";
+    cin >> w;
 }
-
 
 /* Given:  Length   The length of the rectangle.
            Width    The width of the rectangle.
@@ -70,10 +60,7 @@ double computeArea(double l, double w)
     // add code to compute area
     double ans = l * w;
     return ans;
-
 }
-
-
 
 /* Given:  Area    The area of a rectangle.
    Purpose:   To print Area.
@@ -81,8 +68,6 @@ double computeArea(double l, double w)
 */
 void printArea(double a)
 {
-	// add code to print area of the rectangl
-
-   cout<<"The area of the triangle is: " << a << endl;
-
+    // add code to print area of the rectangle
+    cout << "The area of the rectangle is: " << a << endl;  // Fixed "triangle" to "rectangle"
 }
