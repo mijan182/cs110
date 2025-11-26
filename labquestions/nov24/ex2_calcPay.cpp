@@ -9,9 +9,9 @@ File name: ex2_calcPay.cpp
 using namespace std;
 
 //function prototypes 
-void getData(double &payRate, double &hoursWorked);
-double calcPay(double payRate, double hoursWorked);
-void printPay(double payRate, double hoursWorked, double totalPay);
+void getData(double &, double &);
+double calcPay(double, double);
+void printPay(double, double, double);
 
 int main() {
     double payRate, hoursWorked, totalPay;
