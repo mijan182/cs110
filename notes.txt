@@ -1,0 +1,2 @@
+int arr[10] <-- 10 spaces
+array (1) - the second slot (since it starts from  0 to n-1)
