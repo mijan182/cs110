@@ -1,0 +1,8 @@
+gene1A
+gene2A
+gene1B
+gene1B
+gene1C
+gene2C
+gene1D
+gene2D
